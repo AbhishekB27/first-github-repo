@@ -352,8 +352,8 @@ grid-column: 3 / span 2;
 .midSection-3-images{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-column-gap: 5px;
-  grid-row-gap: 5px;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
 }
 .midSection-3-item-1{
   grid-row: 1 /span 2;
@@ -378,5 +378,19 @@ grid-column: 3 / span 2;
   color: darkorange;
 }
 .midSection-3-item-:hover{
-  transform: rotateX(-80deg);
+  transform: rotateX(-10deg);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.midSection-4-items{
+  display: flex;
+  gap:15px;
+}
+.midSection-4-item1-info{
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  background-color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  color: #75757e;
 }
